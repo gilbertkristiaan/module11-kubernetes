@@ -31,7 +31,7 @@
     <b>Here are my steps for using Recreate deployment strategy:</b>
 ![Foto 4](images/4.png)
 <br><br>
-<b>Endpoint access to /petclinc</b>
+<b>Endpoint access to `/petclinic`</b>
 ![Foto 5](images/5.png)
 
 3. Prepare different manifest files for executing Recreate deployment strategy.<br>
