@@ -17,7 +17,7 @@
 
     The -n option in the `kubectl` get command is used to specify a particular namespace in Kubernetes. This is especially helpful when multiple services share the same name across different namespaces. If we omit the -n flag, `kubectl` get will default to showing resources from the default namespace. Namespaces serve to isolate resources within a cluster, allowing better organization and management. For example, using -n kube-system will display resources within the kube-system namespace, which contains core Kubernetes components like DNS and the API server. Without specifying -n, the command only shows user-created resources in the default namespace.
 
-## Rolling Update & Kubernetes Manifest File
+## Tutorail: Rolling Update & Kubernetes Manifest File
 
 1. What is the difference between Rolling Update and Recreate deployment strategy?
 
@@ -27,9 +27,11 @@
 
     Rolling Update works differentlym it updates the app little by little. It creates new pods one at a time while the old pods keep running, so the app stays up and running without any downtime.
 
-2. Try deploying the Spring Petclinic REST using Recreate deployment strategy and document your attempt.<br>
-    Here are my steps for using Recreate deployment strategy:
+2. Try deploying the Spring Petclinic REST using Recreate deployment strategy and document your attempt.<br><br>
+    <b>Here are my steps for using Recreate deployment strategy:</b>
 ![Foto 4](images/4.png)
+<br><br>
+<b>Endpoint access to /petclinc</b>
 ![Foto 5](images/5.png)
 
 3. Prepare different manifest files for executing Recreate deployment strategy.<br>
