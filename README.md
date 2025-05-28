@@ -17,7 +17,7 @@
 
     The -n option in the `kubectl` get command is used to specify a particular namespace in Kubernetes. This is especially helpful when multiple services share the same name across different namespaces. If we omit the -n flag, `kubectl` get will default to showing resources from the default namespace. Namespaces serve to isolate resources within a cluster, allowing better organization and management. For example, using -n kube-system will display resources within the kube-system namespace, which contains core Kubernetes components like DNS and the API server. Without specifying -n, the command only shows user-created resources in the default namespace.
 
-## Tutorail: Rolling Update & Kubernetes Manifest File
+## Tutorial: Rolling Update & Kubernetes Manifest File
 
 1. What is the difference between Rolling Update and Recreate deployment strategy?
 
