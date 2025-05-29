@@ -34,8 +34,8 @@
 <b>Endpoint access to `/petclinic`</b>
 ![Foto 5](images/5.png)
 
-3. Prepare different manifest files for executing Recreate deployment strategy.<br>
-    In the previous section, I followed the steps using a manifest file named recreate_deploy.yaml. This file was created by modifying the original deployment.yaml and changing the deployment strategy from RollingUpdate to Recreate.
+3. Prepare different manifest files for executing Recreate deployment strategy.<br><br>
+    In the previous section, I followed the steps using a manifest file named recreate_deploy.yaml. This file was created by modifying the deployment strategy from RollingUpdate to Recreate.
     
     ```yaml
     strategy:
